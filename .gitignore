@@ -1,0 +1,125 @@
+# Remove all Aseprite and .ini files
+*.aseprite
+*.ini
+
+# Showing limited options as we finalize WIPs
+*_ Development
+/_ Test Scenes/
+/_ Discarded Drafts/
+
+# Ignore folders for Work-In-Progress categories for the moment
+/Animals/
+
+# Packs released on other sites (namely OpenGameArt.org)
+/_ Packs/
+
+# Ignore my template folders
+*Credits Template.txt
+
+# ---------------------------------------------------------------------------
+# Generated color variants (created by scripts/generate_colors.py)
+# These are programmatically recolored from source sprites using Ramps.json
+# and should NOT be committed. Run the generation script after cloning.
+# ---------------------------------------------------------------------------
+
+# Alternate color directories (body/head fantasy colors)
+Characters/**/_Alternate Colors/
+
+# Color-named variant directories (generated from palette ramps)
+# Skin tones
+Characters/**/Ivory/
+Characters/**/Porcelain/
+Characters/**/Peach/
+Characters/**/Tan/
+Characters/**/Tawny/
+Characters/**/Honey/
+Characters/**/Bronze/
+Characters/**/Brown/
+Characters/**/Coffee/
+
+# Clothing / general colors
+Characters/**/White/
+Characters/**/Pearl/
+Characters/**/Smoke/
+Characters/**/Charcoal/
+Characters/**/Ice/
+Characters/**/Silver/
+Characters/**/Gray/
+Characters/**/Shadow/
+Characters/**/Black/
+Characters/**/Oak/
+Characters/**/Leather/
+Characters/**/Chocolate/
+Characters/**/Umber/
+Characters/**/Soot/
+Characters/**/Dove/
+Characters/**/Apricot/
+Characters/**/Salmon/
+Characters/**/Coral/
+Characters/**/Orange/
+Characters/**/Red Orange/
+Characters/**/Red/
+Characters/**/Garnet/
+Characters/**/Wine/
+Characters/**/Beige/
+Characters/**/Linen/
+Characters/**/Sepia/
+Characters/**/Yellow/
+Characters/**/Tumeric/
+Characters/**/Amber/
+Characters/**/Lemon/
+Characters/**/Ochre/
+Characters/**/Mustard/
+Characters/**/Spring/
+Characters/**/Apple/
+Characters/**/Green/
+Characters/**/Emerald/
+Characters/**/Mint/
+Characters/**/Olivine/
+Characters/**/Fern/
+Characters/**/Swamp/
+Characters/**/Forest/
+Characters/**/Cyan/
+Characters/**/Cerulean/
+Characters/**/Teal/
+Characters/**/Neptune/
+Characters/**/Aegean/
+Characters/**/Denim/
+Characters/**/Cornflower/
+Characters/**/Powder/
+Characters/**/Midnight/
+Characters/**/Sky/
+Characters/**/Azure/
+Characters/**/Blue/
+Characters/**/Royal/
+Characters/**/Navy/
+Characters/**/Blue Violet/
+Characters/**/Lavender/
+Characters/**/Amethyst/
+Characters/**/Indigo/
+Characters/**/Purple/
+Characters/**/Periwinkle/
+Characters/**/Heather/
+Characters/**/Mauve/
+Characters/**/Pink/
+Characters/**/Cerise/
+Characters/**/Plum/
+
+# Hair colors
+Characters/**/Blonde/
+Characters/**/Ash Brown/
+Characters/**/Chestnut/
+Characters/**/Hazel/
+Characters/**/Raven/
+Characters/**/Ruby/
+Characters/**/Violet/
+
+# Eye colors (only the ones not already listed above)
+
+# Metal colors
+Characters/**/Steel/
+Characters/**/Iron/
+Characters/**/Gold/
+Characters/**/Copper/
+Characters/**/Brass/
+Characters/**/Platinum/

@@ -1,0 +1,34 @@
+{
+    "Black": [
+        "#818e97",
+        "#52414b"
+    ],
+    "Blue": [
+        "#6cdce7",
+        "#4f8fba"
+    ],
+    "Brown": [
+        "#a8b3b8",
+        "#a16018"
+    ],
+    "Gray": [
+        "#a4dddb",
+        "#818e97"
+    ],
+    "Green": [
+        "#a4dddb",
+        "#7cb82f"
+    ],
+    "Hazel": [
+        "#a4dddb",
+        "#ad844f"
+    ],
+    "Purple": [
+        "#a4b0dc",
+        "#ae7771"
+    ],
+    "source": [
+        "#6cdce7",
+        "#4f8fba"
+    ]
+}
